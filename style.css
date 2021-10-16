@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body {height: 900px; background-color: #DE9C09;}
+header{
+    background-color: #3667ca;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+	background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+	border-radius: 0 0 85% 85% / 30%;
+}
+#Logo{
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 4px;
+    padding: 40px;
+    font-weight: normal;
+    display: inline-block;
+}
+#Logo::before{
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url("./assents/wistia.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
+#Login{
+    color: #fff;
+    padding: 15px 32px;
+    font-weight: bold;
+    border: 1px;
+    display: inline-block;
+    border-style: none;
+    outline: fff;
+    border-radius: 7px;
+    border-style: outset;
+    background-color: transparent;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+
+section{
+    text-align: center;
+}
+#Titulo{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+#SubTitulo{
+    margin-top: 10px;
+    color: #916400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.div-select{
+    display: block;
+    margin: auto;
+    overflow:hidden;
+    width: 1300px;
+}
+input{
+    margin-top: 10px;
+    margin-right: 20px;
+    padding:13px 10% 13px 12px;
+    color: #a6aaad;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+
+}
+.div-select select {
+    position: relative;
+    right: 10px;
+    margin-top: 10px;
+    background: #ffffff;  /* Imagem de fundo (Seta) */      
+    width: 48%; /* Tamanho do select, maior que o tamanho da div "div-select" */      
+    height:48px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */  
+    font-family:Arial, Helvetica, sans-serif; /* Fonte do Select */  
+    font-size:18px; /* Tamanho da Fonte */  
+    padding:13px 20px 13px 12px; /* Configurações de padding para posicionar o texto no campo */  
+    color:#a6aaad; /* Cor da Fonte */      
+    text-indent: 0.01px; /* Remove seta padrão do FireFox */      
+    text-overflow: "";  /* Remove seta padrão do FireFox */ 
+    border-radius: 5px; 
+    border: none;          
+     
+}
+select::-ms-expand {display: none;} /* Remove seta padrão do IE*/
+#SignUp{
+    color:#fff;
+    border: none;
+    background:#3667ca;
+    width: 48%;
+    padding: 13px 20px 13px 0px;
+    margin: 15px;
+    border-radius: 5px;
+    position: relative;
+    right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+#Terms{
+    margin: 20px;
+    color: #916400;
+}
+#TermsLink{
+    color: #916400;
+}
